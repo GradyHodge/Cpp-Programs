@@ -1,52 +1,52 @@
-<mxfile host="app.diagrams.net" modified="2021-02-03T06:31:52.252Z" agent="5.0 (Macintosh; Intel Mac OS X 11_0_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.9 Safari/537.36" etag="K8e7ZA4ysk2_RjnIe3Ve" version="14.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-02-03T07:09:33.165Z" agent="5.0 (Macintosh; Intel Mac OS X 11_0_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.9 Safari/537.36" etag="reu9dp_0gfC1ir9aCLfE" version="14.2.9" type="github">
   <diagram id="nRAjSiK8WFjrmP_ywzNY" name="Page-1">
     <mxGraphModel dx="1033" dy="574" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="EFe__VmadSYUJM0yqOKW-1" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="310" y="230" width="120" height="60" as="geometry" />
+          <mxGeometry x="315" y="270" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="EFe__VmadSYUJM0yqOKW-2" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="115" y="350" width="120" height="60" as="geometry" />
+          <mxGeometry x="120" y="390" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="EFe__VmadSYUJM0yqOKW-3" value="main()" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="340" y="250" width="60" height="20" as="geometry" />
+          <mxGeometry x="345" y="290" width="60" height="20" as="geometry" />
         </mxCell>
         <mxCell id="EFe__VmadSYUJM0yqOKW-4" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="40" y="20" width="350" height="190" as="geometry" />
+          <mxGeometry x="25" y="20" width="350" height="190" as="geometry" />
         </mxCell>
         <mxCell id="EFe__VmadSYUJM0yqOKW-5" value="Problem 1: Compute grade&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;The first problem is to create a Structure Chart for a program to convert a number grade (ex: 88%) into a&lt;br&gt;letter grade (ex: B+). &lt;br&gt;&lt;br&gt;Consider the following example (input is Underlined):&lt;br&gt;What is your grade in percent: 88&lt;br&gt;Your grade is B+" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="50" y="60" width="320" height="140" as="geometry" />
+          <mxGeometry x="35" y="40" width="320" height="140" as="geometry" />
         </mxCell>
         <mxCell id="EFe__VmadSYUJM0yqOKW-6" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="430" y="30" width="370" height="170" as="geometry" />
+          <mxGeometry x="400" y="30" width="440" height="170" as="geometry" />
         </mxCell>
-        <mxCell id="EFe__VmadSYUJM0yqOKW-8" value="Psuedocode (Notes)&lt;br&gt;&lt;br&gt;Input&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; - prompt user for float grade cin &amp;lt;&amp;lt; user input&lt;br&gt;Compute - computeLetterGrade() if numgrade &amp;gt; 96 return A+&lt;br&gt;Output&amp;nbsp; &amp;nbsp; &amp;nbsp;- display converted letter grade" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="445" y="45" width="340" height="140" as="geometry" />
+        <mxCell id="EFe__VmadSYUJM0yqOKW-8" value="Pseudocode (Notes)&lt;br&gt;&lt;br&gt;Input&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; - prompt user for float grade cin &amp;lt;&amp;lt; user input&lt;br&gt;Compute - computeLetterGrade() if numgrade &amp;gt; 96 return A+&lt;br&gt;Output&amp;nbsp; &amp;nbsp; &amp;nbsp;- display converted letter grade&lt;br&gt;&lt;br&gt;int main();&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;// calls getNumGrade, computeLetterGrade, display&lt;br&gt;int getNumGrade();&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;// called by main&lt;br&gt;int computeLetterGrade(float numGrade);&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; // called by main&lt;br&gt;void display(char letterGrade);&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; // called by main" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="407.5" y="45" width="422.5" height="140" as="geometry" />
         </mxCell>
         <mxCell id="EFe__VmadSYUJM0yqOKW-9" value="getNumGrade" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="155" y="370" width="40" height="20" as="geometry" />
+          <mxGeometry x="160" y="410" width="40" height="20" as="geometry" />
         </mxCell>
         <mxCell id="EFe__VmadSYUJM0yqOKW-17" value="" style="endArrow=classic;html=1;exitX=0.454;exitY=-0.05;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="EFe__VmadSYUJM0yqOKW-2" target="EFe__VmadSYUJM0yqOKW-1" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="190" y="270" as="sourcePoint" />
-            <mxPoint x="290" y="270" as="targetPoint" />
+            <mxPoint x="195" y="310" as="sourcePoint" />
+            <mxPoint x="295" y="310" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="EFe__VmadSYUJM0yqOKW-18" value="float numGrade" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" parent="EFe__VmadSYUJM0yqOKW-17" connectable="0" vertex="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="EFe__VmadSYUJM0yqOKW-19" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="310" y="350" width="120" height="60" as="geometry" />
+          <mxGeometry x="315" y="390" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="EFe__VmadSYUJM0yqOKW-20" value="computeLetterGrade" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="350" y="370" width="40" height="20" as="geometry" />
+          <mxGeometry x="355" y="410" width="40" height="20" as="geometry" />
         </mxCell>
         <mxCell id="EFe__VmadSYUJM0yqOKW-21" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="EFe__VmadSYUJM0yqOKW-1" target="EFe__VmadSYUJM0yqOKW-23" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="360" y="320" as="sourcePoint" />
-            <mxPoint x="370" y="300" as="targetPoint" />
+            <mxPoint x="365" y="360" as="sourcePoint" />
+            <mxPoint x="375" y="340" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="EFe__VmadSYUJM0yqOKW-22" value="letterGrade" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" parent="EFe__VmadSYUJM0yqOKW-21" connectable="0" vertex="1">
@@ -55,48 +55,48 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="EFe__VmadSYUJM0yqOKW-23" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="555" y="340" width="120" height="60" as="geometry" />
+          <mxGeometry x="560" y="380" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="EFe__VmadSYUJM0yqOKW-24" value="Display" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="595" y="360" width="40" height="20" as="geometry" />
+        <mxCell id="EFe__VmadSYUJM0yqOKW-24" value="display" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="600" y="400" width="40" height="20" as="geometry" />
         </mxCell>
         <mxCell id="EFe__VmadSYUJM0yqOKW-26" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="375" y="1370" width="120" height="60" as="geometry" />
+          <mxGeometry x="365" y="1440" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="EFe__VmadSYUJM0yqOKW-27" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="150" y="1501.34" width="170" height="60" as="geometry" />
+          <mxGeometry x="140" y="1571.34" width="170" height="60" as="geometry" />
         </mxCell>
         <mxCell id="EFe__VmadSYUJM0yqOKW-28" value="main()" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="405" y="1390" width="60" height="20" as="geometry" />
+          <mxGeometry x="395" y="1460" width="60" height="20" as="geometry" />
         </mxCell>
         <mxCell id="EFe__VmadSYUJM0yqOKW-29" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="40" y="1040" width="360" height="290" as="geometry" />
+          <mxGeometry x="40" y="1110" width="360" height="290" as="geometry" />
         </mxCell>
         <mxCell id="EFe__VmadSYUJM0yqOKW-30" value="&lt;div&gt;&lt;div&gt;Problem 3: Currency&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;The final problem is designed to help an international traveler convert his money to various currencies.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;After prompting him for the amount to be converted,&amp;nbsp;&lt;/div&gt;&lt;div&gt;the program will display how many&amp;nbsp;&lt;/div&gt;&lt;div&gt;British pounds,&lt;/div&gt;&lt;div&gt;Euros, or&amp;nbsp;&lt;/div&gt;&lt;div&gt;Japanese Yen he will have:&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;How much money do you want to convert? $100.00&lt;/div&gt;&lt;div&gt;&amp;nbsp;British Pounds: £61.50&lt;/div&gt;&lt;div&gt;&amp;nbsp;Euros: €70.09&lt;/div&gt;&lt;div&gt;&amp;nbsp;Japanese Yen: ¥8079.06&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="55" y="1060" width="320" height="230" as="geometry" />
+          <mxGeometry x="55" y="1130" width="320" height="230" as="geometry" />
         </mxCell>
         <mxCell id="EFe__VmadSYUJM0yqOKW-31" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="430" y="570" width="370" height="170" as="geometry" />
+          <mxGeometry x="385" y="580" width="445" height="210" as="geometry" />
         </mxCell>
-        <mxCell id="EFe__VmadSYUJM0yqOKW-32" value="Input&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; - prompt user for double allowance cin &amp;lt;&amp;lt; user input;&lt;br&gt;Compute - computeTithing()&amp;nbsp; return allowance * 0.10;&lt;br&gt;Compute - allowance minus tithing return double spendable&lt;br&gt;Output&amp;nbsp; &amp;nbsp; &amp;nbsp;- Display cout &amp;lt;&amp;lt; spendable" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="445" y="585" width="340" height="140" as="geometry" />
+        <mxCell id="EFe__VmadSYUJM0yqOKW-32" value="Input&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; - prompt user for double allowance cin &amp;lt;&amp;lt; user input;&lt;br&gt;Compute - computeTithing()&amp;nbsp; return allowance * 0.10;&lt;br&gt;Compute - allowance minus tithing return double spendable&lt;br&gt;Output&amp;nbsp; &amp;nbsp; &amp;nbsp;- Display cout &amp;lt;&amp;lt; spendable&lt;br&gt;&lt;br&gt;&lt;div&gt;int main();&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; //&amp;nbsp; calls getAllowance, computeTithing, display&lt;/div&gt;&lt;div&gt;int getAllowance();&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; // called by main&lt;/div&gt;&lt;div&gt;idouble computeTithing(double allowance);&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;// called by main&lt;/div&gt;&lt;div&gt;void display(double spendable);&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; // called by main&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="400" y="595" width="420" height="175" as="geometry" />
         </mxCell>
         <mxCell id="EFe__VmadSYUJM0yqOKW-34" value="" style="endArrow=classic;html=1;exitX=0.454;exitY=-0.05;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="EFe__VmadSYUJM0yqOKW-27" target="EFe__VmadSYUJM0yqOKW-26" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="255" y="1410" as="sourcePoint" />
-            <mxPoint x="355" y="1410" as="targetPoint" />
+            <mxPoint x="245" y="1480" as="sourcePoint" />
+            <mxPoint x="345" y="1480" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="EFe__VmadSYUJM0yqOKW-35" value="double myMoney" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" parent="EFe__VmadSYUJM0yqOKW-34" connectable="0" vertex="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="EFe__VmadSYUJM0yqOKW-36" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="375" y="1501.34" width="120" height="60" as="geometry" />
+          <mxGeometry x="365" y="1571.34" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="EFe__VmadSYUJM0yqOKW-38" value="" style="endArrow=classic;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" parent="1" source="EFe__VmadSYUJM0yqOKW-36" target="EFe__VmadSYUJM0yqOKW-26" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="425" y="1460" as="sourcePoint" />
-            <mxPoint x="435" y="1440" as="targetPoint" />
+            <mxPoint x="415" y="1530" as="sourcePoint" />
+            <mxPoint x="425" y="1510" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="EFe__VmadSYUJM0yqOKW-39" value="double 3 conversions" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" parent="EFe__VmadSYUJM0yqOKW-38" connectable="0" vertex="1">
@@ -105,33 +105,33 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="EFe__VmadSYUJM0yqOKW-40" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="555" y="1501.34" width="120" height="60" as="geometry" />
+          <mxGeometry x="545" y="1571.34" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="EFe__VmadSYUJM0yqOKW-41" value="Display" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="595" y="1521.34" width="40" height="20" as="geometry" />
+          <mxGeometry x="585" y="1591.34" width="40" height="20" as="geometry" />
         </mxCell>
         <mxCell id="EFe__VmadSYUJM0yqOKW-46" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="40" y="560" width="350" height="190" as="geometry" />
+          <mxGeometry x="5" y="590" width="350" height="190" as="geometry" />
         </mxCell>
         <mxCell id="EFe__VmadSYUJM0yqOKW-47" value="&lt;div&gt;Problem 2: Compute tithing&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;The second problem is designed to help a child set aside part of his allowance for tithing.&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;This program&amp;nbsp;&lt;span&gt;will&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;prompt the user for his allowance,&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;figure out how much is left after tithing is taken out,&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;and display&amp;nbsp;&lt;/span&gt;&lt;span&gt;the results.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;What is your allowance? $10.50&lt;/div&gt;&lt;div&gt;You get to spend: $9.45&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="50" y="600" width="320" height="150" as="geometry" />
+          <mxGeometry x="15" y="630" width="320" height="150" as="geometry" />
         </mxCell>
         <mxCell id="EFe__VmadSYUJM0yqOKW-48" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="430" y="1070" width="370" height="170" as="geometry" />
+          <mxGeometry x="430" y="1140" width="370" height="170" as="geometry" />
         </mxCell>
-        <mxCell id="EFe__VmadSYUJM0yqOKW-49" value="Input&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; - prompt user for double myMoney cin &amp;lt;&amp;lt; user input;&lt;br&gt;Compute - convertMoney()&amp;nbsp; return double pounds, euros, yen;&lt;br&gt;Output&amp;nbsp; &amp;nbsp; &amp;nbsp;- Display() cout &amp;lt;&amp;lt;&amp;nbsp; three conversions" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="445" y="1085" width="340" height="140" as="geometry" />
+        <mxCell id="EFe__VmadSYUJM0yqOKW-49" value="Input&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; - prompt user for double myMoney cin &amp;lt;&amp;lt; user input;&lt;br&gt;Compute - convertMoney()&amp;nbsp; return double pounds, euros, yen;&lt;br&gt;Output&amp;nbsp; &amp;nbsp; &amp;nbsp;- Display() cout &amp;lt;&amp;lt;&amp;nbsp; three conversions&lt;br&gt;&lt;br&gt;main();&amp;nbsp; &amp;nbsp; // calls getAmountToConvert, convertMoney, display&lt;br&gt;getAmountToConvert();&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; // called by main&lt;br&gt;convertMoney(double myMoney);&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; // called by main&lt;br&gt;void display(double pounds, euros, yen);&amp;nbsp; &amp;nbsp;// called by main" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="445" y="1155" width="340" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="EFe__VmadSYUJM0yqOKW-50" value="getAmountToConvert()" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="225" y="1521.34" width="40" height="20" as="geometry" />
+        <mxCell id="EFe__VmadSYUJM0yqOKW-50" value="getAmountToConvert" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="215" y="1591.34" width="40" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="EFe__VmadSYUJM0yqOKW-54" value="convertMoney()" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="415" y="1521.34" width="40" height="20" as="geometry" />
+        <mxCell id="EFe__VmadSYUJM0yqOKW-54" value="convertMoney" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="405" y="1591.34" width="40" height="20" as="geometry" />
         </mxCell>
         <mxCell id="EFe__VmadSYUJM0yqOKW-62" value="" style="endArrow=classic;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" parent="1" source="EFe__VmadSYUJM0yqOKW-26" target="EFe__VmadSYUJM0yqOKW-36" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="285" y="1570" as="sourcePoint" />
-            <mxPoint x="435" y="1489" as="targetPoint" />
+            <mxPoint x="275" y="1640" as="sourcePoint" />
+            <mxPoint x="425" y="1559" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="EFe__VmadSYUJM0yqOKW-63" value="myMoney" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" parent="EFe__VmadSYUJM0yqOKW-62" connectable="0" vertex="1">
@@ -141,8 +141,8 @@
         </mxCell>
         <mxCell id="EFe__VmadSYUJM0yqOKW-66" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="EFe__VmadSYUJM0yqOKW-26" target="EFe__VmadSYUJM0yqOKW-40" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="445" y="1560" as="sourcePoint" />
-            <mxPoint x="545" y="1560" as="targetPoint" />
+            <mxPoint x="435" y="1630" as="sourcePoint" />
+            <mxPoint x="535" y="1630" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="EFe__VmadSYUJM0yqOKW-67" value="pounds&lt;br&gt;euros&lt;br&gt;&lt;div&gt;yen&lt;br&gt;&lt;/div&gt;" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" parent="EFe__VmadSYUJM0yqOKW-66" connectable="0" vertex="1">
@@ -150,8 +150,8 @@
         </mxCell>
         <mxCell id="EFe__VmadSYUJM0yqOKW-69" value="" style="endArrow=classic;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" parent="1" source="EFe__VmadSYUJM0yqOKW-19" target="EFe__VmadSYUJM0yqOKW-1" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="330" y="380" as="sourcePoint" />
-            <mxPoint x="430" y="380" as="targetPoint" />
+            <mxPoint x="335" y="420" as="sourcePoint" />
+            <mxPoint x="435" y="420" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="EFe__VmadSYUJM0yqOKW-70" value="char letterGrade[256]" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" parent="EFe__VmadSYUJM0yqOKW-69" connectable="0" vertex="1">
@@ -161,8 +161,8 @@
         </mxCell>
         <mxCell id="EFe__VmadSYUJM0yqOKW-71" value="" style="endArrow=classic;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" parent="1" source="EFe__VmadSYUJM0yqOKW-1" target="EFe__VmadSYUJM0yqOKW-19" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="280" y="440" as="sourcePoint" />
-            <mxPoint x="380" y="440" as="targetPoint" />
+            <mxPoint x="285" y="480" as="sourcePoint" />
+            <mxPoint x="385" y="480" as="targetPoint" />
             <Array as="points" />
           </mxGeometry>
         </mxCell>
@@ -172,30 +172,30 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="EFe__VmadSYUJM0yqOKW-73" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="330" y="790" width="120" height="60" as="geometry" />
+          <mxGeometry x="327.5" y="830" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="EFe__VmadSYUJM0yqOKW-74" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="115" y="910" width="170" height="60" as="geometry" />
+          <mxGeometry x="112.5" y="950" width="170" height="60" as="geometry" />
         </mxCell>
         <mxCell id="EFe__VmadSYUJM0yqOKW-75" value="main()" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="360" y="810" width="60" height="20" as="geometry" />
+          <mxGeometry x="357.5" y="850" width="60" height="20" as="geometry" />
         </mxCell>
         <mxCell id="EFe__VmadSYUJM0yqOKW-76" value="" style="endArrow=classic;html=1;exitX=0.454;exitY=-0.05;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="EFe__VmadSYUJM0yqOKW-74" target="EFe__VmadSYUJM0yqOKW-73" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="210" y="830" as="sourcePoint" />
-            <mxPoint x="310" y="830" as="targetPoint" />
+            <mxPoint x="207.5" y="870" as="sourcePoint" />
+            <mxPoint x="307.5" y="870" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="EFe__VmadSYUJM0yqOKW-77" value="double allowance" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" parent="EFe__VmadSYUJM0yqOKW-76" connectable="0" vertex="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="EFe__VmadSYUJM0yqOKW-78" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="330" y="910" width="120" height="60" as="geometry" />
+          <mxGeometry x="327.5" y="950" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="EFe__VmadSYUJM0yqOKW-79" value="" style="endArrow=classic;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" parent="1" source="EFe__VmadSYUJM0yqOKW-78" target="EFe__VmadSYUJM0yqOKW-73" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="380" y="880" as="sourcePoint" />
-            <mxPoint x="390" y="860" as="targetPoint" />
+            <mxPoint x="377.5" y="920" as="sourcePoint" />
+            <mxPoint x="387.5" y="900" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="EFe__VmadSYUJM0yqOKW-80" value="double spendable" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" parent="EFe__VmadSYUJM0yqOKW-79" connectable="0" vertex="1">
@@ -204,21 +204,21 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="EFe__VmadSYUJM0yqOKW-81" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="530" y="900" width="120" height="60" as="geometry" />
+          <mxGeometry x="517.5" y="950" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="EFe__VmadSYUJM0yqOKW-82" value="Display" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="570" y="920" width="40" height="20" as="geometry" />
+          <mxGeometry x="557.5" y="970" width="40" height="20" as="geometry" />
         </mxCell>
         <mxCell id="EFe__VmadSYUJM0yqOKW-83" value="getAllowance" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="180" y="930" width="40" height="20" as="geometry" />
+          <mxGeometry x="177.5" y="970" width="40" height="20" as="geometry" />
         </mxCell>
         <mxCell id="EFe__VmadSYUJM0yqOKW-84" value="computeTithing" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="370" y="930" width="40" height="20" as="geometry" />
+          <mxGeometry x="367.5" y="970" width="35" height="20" as="geometry" />
         </mxCell>
         <mxCell id="EFe__VmadSYUJM0yqOKW-85" value="" style="endArrow=classic;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" parent="1" source="EFe__VmadSYUJM0yqOKW-73" target="EFe__VmadSYUJM0yqOKW-78" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="240" y="990" as="sourcePoint" />
-            <mxPoint x="390" y="909" as="targetPoint" />
+            <mxPoint x="237.5" y="1030" as="sourcePoint" />
+            <mxPoint x="387.5" y="949" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="EFe__VmadSYUJM0yqOKW-86" value="allowance" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" parent="EFe__VmadSYUJM0yqOKW-85" connectable="0" vertex="1">
@@ -228,11 +228,14 @@
         </mxCell>
         <mxCell id="EFe__VmadSYUJM0yqOKW-87" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="EFe__VmadSYUJM0yqOKW-73" target="EFe__VmadSYUJM0yqOKW-81" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="400" y="980" as="sourcePoint" />
-            <mxPoint x="500" y="980" as="targetPoint" />
+            <mxPoint x="397.5" y="1020" as="sourcePoint" />
+            <mxPoint x="497.5" y="1020" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="EFe__VmadSYUJM0yqOKW-88" value="spendable" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" parent="EFe__VmadSYUJM0yqOKW-87" connectable="0" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9eZm-zgfV7OoPHtZLFin-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="EFe__VmadSYUJM0yqOKW-4" target="EFe__VmadSYUJM0yqOKW-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>

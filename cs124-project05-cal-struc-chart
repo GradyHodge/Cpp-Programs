@@ -1,1 +1,106 @@
-<mxfile host="app.diagrams.net" modified="2021-02-06T20:53:44.024Z" agent="5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.9 Safari/537.36" version="14.2.9" etag="UXt5t0pJb_YLUn8xQBS9" type="github"><diagram id="nEQPzMYAcVcOTutubbTl">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-02-06T22:25:59.824Z" agent="5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.9 Safari/537.36" etag="dVrzvHccH9wWV4H9BgDQ" version="14.2.9" type="github">
+  <diagram id="nEQPzMYAcVcOTutubbTl" name="Page-1">
+    <mxGraphModel dx="1213" dy="904" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="gDg3Eo1sDtetFZfaA0XL-5" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="700" height="1040" as="geometry" />
+        </mxCell>
+        <mxCell id="gDg3Eo1sDtetFZfaA0XL-1" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="1120" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gDg3Eo1sDtetFZfaA0XL-2" value="main" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="380" y="1140" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="gDg3Eo1sDtetFZfaA0XL-4" value="&lt;h1&gt;CS124 Project05 Calendar Project Part 1 - Structure Chart&lt;/h1&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px ; font-weight: normal&quot;&gt;Objective1-&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px ; font-weight: normal&quot;&gt;return a monthly calendar from any year after 1753&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px ; font-weight: normal&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px ; font-weight: normal&quot;&gt;Objective2-&lt;br&gt;Part 1 is to only construct a Structure Chart first.&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px ; font-weight: normal&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px ; font-weight: normal&quot;&gt;Later part 2 of project will focus on pseudocode, and part 3 of project will be to actually code the calendar program&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px ; font-weight: normal&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px ; font-weight: normal&quot;&gt;NOTES:&amp;nbsp; &amp;nbsp; &amp;nbsp;Thinking it through&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px ; font-weight: normal&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;1.&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; INPUT -&amp;nbsp; &amp;nbsp; &amp;nbsp;// user inputs month and year&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;2. COMPUTE -&amp;nbsp; &amp;nbsp; // isLeapYear --&amp;gt; Feb = +/- day&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; COMPUTE -&amp;nbsp; &amp;nbsp; // what day does Jan 1st begin&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; COMPUTE -&amp;nbsp; &amp;nbsp; // build out an accurate list of days/dates&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; COMPUTE-&amp;nbsp; &amp;nbsp; &amp;nbsp;// validate user input&amp;nbsp;&lt;/div&gt;&lt;div&gt;3.&amp;nbsp; &amp;nbsp; OUTPUT -&amp;nbsp; &amp;nbsp; // display error message if user input is not valid&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; // display day/dates in a calendar format&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;COHESION - one function does one task thoroughly to completion&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;LIST OUT:&amp;nbsp;&lt;/div&gt;&lt;div&gt;1. INPUT FUNCTIONS&lt;/div&gt;&lt;div&gt;getMonth()&lt;/div&gt;&lt;div&gt;getYear()&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;2. COMPUTE FUNCTIONS&lt;/div&gt;&lt;div&gt;isLeapYear()&lt;/div&gt;&lt;div&gt;computeDates()&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;3. OUTPUT FUNCTIONS&lt;/div&gt;&lt;div&gt;displayCal()&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;COUPLING - the measurement of the flow of data between 2 functions&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;WHAT DOES EACH FUNCTION NEED FROM THE OTHER?&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;1. getDate()&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; needs: nothing&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; does: gets user input and stores it in a var month.&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; validates: user input&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; returns: month&lt;/div&gt;&lt;div&gt;2. getYear()&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; needs: nothing,&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; does: gets user input and stores it in a var year.&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; validates: user input&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; returns: year&lt;/div&gt;&lt;div&gt;3. isLeapYear()&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; needs: year from getYear()&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; does: computes if year is a leap year.&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; returns: true/false&lt;/div&gt;&lt;div&gt;4. computesDates()&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; needs: isLeapYear()&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; needs: selected month&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; needs: selected year&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; does: generates an accurate list of days/months&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; returns: a full list of day/date pairs&lt;/div&gt;&lt;div&gt;5. display()&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; needs: selected month&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; needs: selected year&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; needs: list of day/dates&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; does: displays selected month and year&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; does: displays day/dates in calendar format&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; returns: nothing&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="55" y="50" width="430" height="1040" as="geometry" />
+        </mxCell>
+        <mxCell id="gDg3Eo1sDtetFZfaA0XL-7" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1280" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gDg3Eo1sDtetFZfaA0XL-8" value="getMonth()" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="100" y="1300" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="gDg3Eo1sDtetFZfaA0XL-17" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="1280" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gDg3Eo1sDtetFZfaA0XL-18" value="getYear()" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="300" y="1300" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="gDg3Eo1sDtetFZfaA0XL-19" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="1280" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gDg3Eo1sDtetFZfaA0XL-20" value="computeDates()" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="500" y="1300" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="gDg3Eo1sDtetFZfaA0XL-21" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="1440" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gDg3Eo1sDtetFZfaA0XL-22" value="isLeapYear()" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="500" y="1460" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="gDg3Eo1sDtetFZfaA0XL-23" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="1280" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gDg3Eo1sDtetFZfaA0XL-24" value="display()" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="700" y="1300" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="gDg3Eo1sDtetFZfaA0XL-25" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="gDg3Eo1sDtetFZfaA0XL-7" target="gDg3Eo1sDtetFZfaA0XL-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="560" y="1190" as="sourcePoint" />
+            <mxPoint x="610" y="1140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gDg3Eo1sDtetFZfaA0XL-26" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="gDg3Eo1sDtetFZfaA0XL-17" target="gDg3Eo1sDtetFZfaA0XL-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="560" y="1190" as="sourcePoint" />
+            <mxPoint x="610" y="1140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gDg3Eo1sDtetFZfaA0XL-27" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="gDg3Eo1sDtetFZfaA0XL-1" target="gDg3Eo1sDtetFZfaA0XL-19">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="530" y="1160" as="sourcePoint" />
+            <mxPoint x="630" y="1160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gDg3Eo1sDtetFZfaA0XL-28" value="month&lt;br&gt;year" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="gDg3Eo1sDtetFZfaA0XL-27">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint y="10.07" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gDg3Eo1sDtetFZfaA0XL-31" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="gDg3Eo1sDtetFZfaA0XL-1" target="gDg3Eo1sDtetFZfaA0XL-23">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="530" y="1160" as="sourcePoint" />
+            <mxPoint x="630" y="1160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gDg3Eo1sDtetFZfaA0XL-32" value="month&lt;br&gt;year&lt;br&gt;dates" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="gDg3Eo1sDtetFZfaA0XL-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gDg3Eo1sDtetFZfaA0XL-33" value="" style="endArrow=classic;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="gDg3Eo1sDtetFZfaA0XL-19" target="gDg3Eo1sDtetFZfaA0XL-21">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="530" y="1500" as="sourcePoint" />
+            <mxPoint x="630" y="1500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gDg3Eo1sDtetFZfaA0XL-34" value="year" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="gDg3Eo1sDtetFZfaA0XL-33">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint y="-20" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gDg3Eo1sDtetFZfaA0XL-35" value="" style="endArrow=classic;html=1;entryX=0.75;entryY=1;entryDx=0;entryDy=0;exitX=0.75;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="gDg3Eo1sDtetFZfaA0XL-21" target="gDg3Eo1sDtetFZfaA0XL-19">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="530" y="1500" as="sourcePoint" />
+            <mxPoint x="630" y="1500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gDg3Eo1sDtetFZfaA0XL-36" value="true/false" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="gDg3Eo1sDtetFZfaA0XL-35">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint y="20" as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
